@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FG's Firdouse Garments</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .tagline {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: auto;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .product {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 250px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    img.logo {
+      max-height: 300px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>FG's Firdouse Garments</h1>
+    <div class="tagline">Style | Elegance | Tradition</div>
+  </header>
+
+  <img src="/mnt/data/91a0f438-ac3a-4c0d-a1e8-9d6d1fd61018.png" alt="FG's Firdouse Garments Signboard" class="logo">
+
+  <section class="section">
+    <h2>Our Collections</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Men's Wear</h3>
+        <p>Stylish and comfortable designs for every occasion.</p>
+      </div>
+      <div class="product">
+        <h3>Women's Wear</h3>
+        <p>Elegant and traditional garments with a modern twist.</p>
+      </div>
+      <div class="product">
+        <h3>Kids' Wear</h3>
+        <p>Cute and comfortable clothing for your little ones.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FG's Firdouse Garments. All rights reserved.</p>
+    <p>Visit us in-store for the full experience.</p>
+  </footer>
+</body>
+
+</html>
